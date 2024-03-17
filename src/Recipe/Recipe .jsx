@@ -12,7 +12,7 @@ const Recipe  = () => {
                 <div className="navbar bg-base-100">
                     <div className="navbar-start ">
                         <div className="dropdown">
-                            <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
+                            <div tabIndex="0" role="button" className="btn btn-ghost hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </div>
                             <ul tabIndex="0" className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#e4e4e7] rounded-box w-52 ">
@@ -24,7 +24,7 @@ const Recipe  = () => {
                         </div>
                         <a className="btn btn-ghost text-4xl font-extrabold text-[#030712]">Recipe Calories</a>
                     </div>
-                    <div className="navbar-center hidden lg:flex">
+                    <div className="navbar-center  lg:flex">
                         <ul className="menu menu-horizontal px-1 text-[#030712b3] text-lg font-medium">
                             <li><a>Home</a></li>
                             <li><a>Recipes</a></li>
@@ -45,12 +45,12 @@ const Recipe  = () => {
 
             {/* banner section  */}
             <section className="mt-10">
-                <div className=" card w-auto bg-base-100  image-full flex flex-col items-center ">
+                <div className=" card w-auto bg-base-100  image-full flex flex-col items-center  ">
                     <figure><img src={Rectangle} alt="" /></figure>
                     <div className="text-center ">
                         <h2 className="text-6xl font-extrabold text-white">Discover an exceptional cooking <br /> class tailored for you!</h2>
                         <p className="text-[18px] font-normal text-white lg:mt-7"> Recipe calories refer to the total energy content of a dish or meal, typically measured in kilocalories (kcal) or calories. It's the sum of the calories contributed <br /> by each ingredient used in the recipe. Knowing the calorie content of a recipe </p>
-                        <div className="card-actions justify-center lg:mt-7 ">
+                        <div className="card-actions justify-center mt-7 ">
                         <button className="btn bg-[#0BE58A] border-none rounded-full text-center font-bold text-[20px] text-[#030712] ">Explore Now</button>
                         <button className="btn bg-inherit border rounded-full text-center font-bold text-[20px] text-[#FFFFFF] ">Our Feedback</button>
                         </div>
